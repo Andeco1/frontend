@@ -1233,9 +1233,6 @@ textarea:focus {
   transition: transform 0.3s ease;
 }
 
-.social-icons a:hover {
-  transform: scale(1.2);
-}
 
 @media (max-width: 1000px) {
   .footer {
@@ -1247,6 +1244,10 @@ textarea:focus {
 @media (max-width: 768px) {
   .footer {
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
   }
+    .mapp{
+        height: 200px;
+    }
 }
 
